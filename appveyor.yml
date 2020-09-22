@@ -10,6 +10,7 @@ build_script:
 artifacts:
 - path: msbuild.binlog
   name: MSBuild Log
-
+- path: C:\projects\taglib-sharp\src\TaglibSharp\bin\Release\TagLibSharp.2.2.0.nupkg
+  name: TagLibSharp.2.2.0.nupkg
 on_failure:
 - appveyor PushArtifact msbuild.binlog
