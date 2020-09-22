@@ -10,8 +10,8 @@ build_script:
 artifacts:
 - path: msbuild.binlog
   name: MSBuild Log
-- path: src\TaglibSharp\bin\Release\TagLibSharp.2.2.0.nupkg
-  name: TagLibSharp.2.2.0.nupkg
+- path: src\TaglibSharp\bin\Release\TagLibSharp.*.nupkg
+  name: TagLibSharp (Nuget package)
 - path: src\TaglibSharp\bin\Release\net40\TagLibSharp.dll
   name: TagLibSharp (4.0)
 - path: src\TaglibSharp\bin\Release\net45\TagLibSharp.dll
